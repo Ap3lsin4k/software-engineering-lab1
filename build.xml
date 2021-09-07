@@ -3,7 +3,7 @@
 <!-- ================== Application Properties =================== -->  
   <property name="app.name" value="Template" />    
   <property name="app.version" value="0.1" />
-  <property name="app.title" value="Template Application" />
+  <property name="app.title" value="My Java Application" />
   <property name="app.author" value="Andy Theodorko" />
   <property name="app.company" value="IO-04" />
 

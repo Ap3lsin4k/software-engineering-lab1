@@ -1,7 +1,7 @@
 <project name="Andy's Java App" default="signJAR" basedir=".">
 
 <!-- ================== Application Properties =================== -->
-  <property name="app.name" value="Template" />
+  <property name="app.name" value="app made by Andy" />
   <property name="app.version" value="0.1" />
   <property name="app.title" value="My Java Application" />
   <property name="app.author" value="Andy Theodorko" />

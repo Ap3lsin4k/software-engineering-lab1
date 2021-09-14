@@ -25,3 +25,5 @@ public final class aModule {
   }
 
 }
+
+Documents.objects(organization="h23878327832323")

@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="479cd5cb-b3fb-4c22-af53-23379643f874" name="Changes" comment="" />
+    <list default="true" id="479cd5cb-b3fb-4c22-af53-23379643f874" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/aModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/aModule.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -18,6 +24,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1xlg6jGb55XLa5ZAG9KFR4Tomy8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,6 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -37,36 +47,69 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Ant Target.jar">
-    <configuration name="Unnamed (1)" type="AntRunConfiguration" folderName="New Folder" nameIsGenerated="true">
-      <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="compile" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Unnamed" type="AntRunConfiguration" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lab111" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Ant Target.delete junk variant 1">
+    <configuration name="clean" type="AntRunConfiguration" folderName="default">
       <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="clean" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jar" type="AntRunConfiguration" folderName="New Folder">
+    <configuration name="compile" type="AntRunConfiguration" folderName="default">
+      <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="compile" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="delete junk variant 1" type="AntRunConfiguration">
+      <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="delete-build-generated" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doc" type="AntRunConfiguration">
+      <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="generate_javadoc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jar" type="AntRunConfiguration" folderName="default">
       <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="createJAR" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="prepare" type="AntRunConfiguration" folderName="New Folder">
+    <configuration name="prepare" type="AntRunConfiguration" folderName="default">
       <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="prepare" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="signJar" type="AntRunConfiguration">
+      <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="signJAR" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zip" type="AntRunConfiguration">
+      <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="make-zip-project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Ant Target.clean" />
       <item itemvalue="Ant Target.prepare" />
-      <item itemvalue="Ant Target.Unnamed (1)" />
+      <item itemvalue="Ant Target.compile" />
       <item itemvalue="Ant Target.jar" />
-      <item itemvalue="Ant Target.Unnamed" />
+      <item itemvalue="Ant Target.doc" />
+      <item itemvalue="Ant Target.delete junk variant 1" />
+      <item itemvalue="Ant Target.signJar" />
+      <item itemvalue="Ant Target.zip" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -79,10 +122,26 @@
       <updated>1630934916108</updated>
       <workItem from="1630934917516" duration="2005000" />
       <workItem from="1631022535830" duration="1425000" />
+      <workItem from="1631026417695" duration="2756000" />
+      <workItem from="1631127572085" duration="6392000" />
+      <workItem from="1631165729962" duration="3279000" />
+      <workItem from="1631296601149" duration="777000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

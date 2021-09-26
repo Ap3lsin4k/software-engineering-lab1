@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="479cd5cb-b3fb-4c22-af53-23379643f874" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/Cl1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/Cl1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/Cl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/Cl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/Cl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/Cl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/If1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/If1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/If2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/If2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/If3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/If3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/Test14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/Test14.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +65,7 @@
       <recent name="com.lab111" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test14">
+  <component name="RunManager" selected="Ant Target.doc">
     <configuration name="clean" type="AntRunConfiguration" folderName="default">
       <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="clean" />
       <method v="2">
@@ -181,7 +174,7 @@
       <workItem from="1631165729962" duration="3279000" />
       <workItem from="1631296601149" duration="777000" />
       <workItem from="1632512436932" duration="299000" />
-      <workItem from="1632670486673" duration="10152000" />
+      <workItem from="1632670486673" duration="10809000" />
     </task>
     <servers />
   </component>

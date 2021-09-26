@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"com.lab111","c":"aModule","l":"aModule()","u":"%3Cinit%3E()"},{"p":"com.lab111","c":"aModule","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"com.lab111","c":"TestMain","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"com.lab111","c":"TestMain","l":"TestMain()","u":"%3Cinit%3E()"}];updateSearchResults();

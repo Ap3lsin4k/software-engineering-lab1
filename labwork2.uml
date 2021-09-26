@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.lab111.labwork2</OriginalElement>
+  <nodes>
+    <node x="78.27265624999998" y="0.0">com.lab111.labwork2.If1</node>
+    <node x="52.83151041666663" y="803.0">com.lab111.labwork2.Test14</node>
+    <node x="0.0" y="624.0">com.lab111.labwork2.Cl2</node>
+    <node x="78.60234374999996" y="331.0">com.lab111.labwork2.Cl3</node>
+    <node x="42.10234374999996" y="220.0">com.lab111.labwork2.If2</node>
+    <node x="12.793489583333312" y="109.0">com.lab111.labwork2.If3</node>
+    <node x="63.15494791666666" y="489.0">com.lab111.labwork2.Cl1</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lab111.labwork2.Cl1" target="com.lab111.labwork2.Cl3" relationship="DEPENDENCY">
+      <point x="-41.33333333333334" y="-40.5" />
+      <point x="83.82161458333331" y="467.0" />
+      <point x="99.4356770833333" y="467.0" />
+      <point x="-41.66666666666666" y="52.0" />
+    </edge>
+    <edge source="com.lab111.labwork2.Cl2" target="com.lab111.labwork2.If3" relationship="TO_ONE">
+      <point x="-46.875" y="-63.5" />
+      <point x="15.625" y="597.0" />
+      <point x="20.60234374999996" y="597.0" />
+      <point x="20.60234374999996" y="188.0" />
+      <point x="28.41848958333331" y="188.0" />
+      <point x="-46.875" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork2.Cl3" target="com.lab111.labwork2.If2" relationship="TO_ONE">
+      <point x="-41.66666666666666" y="-52.0" />
+      <point x="99.4356770833333" y="304.0" />
+      <point x="104.60234374999996" y="304.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork2.Cl2" target="com.lab111.labwork2.Cl1" relationship="GENERALIZATION">
+      <point x="46.875" y="-63.5" />
+      <point x="109.375" y="597.0" />
+      <point x="94.15494791666666" y="597.0" />
+      <point x="-31.0" y="40.5" />
+    </edge>
+    <edge source="com.lab111.labwork2.Cl3" target="com.lab111.labwork2.If3" relationship="REALIZATION">
+      <point x="41.66666666666666" y="-52.0" />
+      <point x="182.75" y="198.0" />
+      <point x="122.16848958333331" y="198.0" />
+      <point x="46.875" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork2.Cl1" target="com.lab111.labwork2.If1" relationship="REALIZATION">
+      <point x="41.33333333333334" y="-40.5" />
+      <point x="166.48828125" y="467.0" />
+      <point x="218.85234374999996" y="467.0" />
+      <point x="218.85234374999996" y="83.0" />
+      <point x="171.27265624999998" y="83.0" />
+      <point x="31.0" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork2.Test14" target="com.lab111.labwork2.Cl3" relationship="CREATE">
+      <point x="0.0" y="-28.5" />
+      <point x="133.33151041666662" y="777.0" />
+      <point x="197.65494791666666" y="777.0" />
+      <point x="197.65494791666666" y="457.0" />
+      <point x="182.76901041666662" y="457.0" />
+      <point x="41.66666666666666" y="52.0" />
+    </edge>
+    <edge source="com.lab111.labwork2.Test14" target="com.lab111.labwork2.Cl2" relationship="CREATE">
+      <point x="0.0" y="-28.5" />
+      <point x="133.33151041666662" y="777.0" />
+      <point x="62.5" y="777.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="com.lab111.labwork2.Cl2" target="com.lab111.labwork2.If2" relationship="REALIZATION">
+      <point x="15.625" y="-63.5" />
+      <point x="78.125" y="597.0" />
+      <point x="52.40494791666666" y="597.0" />
+      <point x="52.40494791666666" y="304.0" />
+      <point x="62.9356770833333" y="304.0" />
+      <point x="-41.66666666666666" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork2.Test14" target="com.lab111.labwork2.Cl1" relationship="CREATE">
+      <point x="0.0" y="-28.5" />
+      <point x="133.33151041666662" y="777.0" />
+      <point x="146.0263020833333" y="777.0" />
+      <point x="146.0263020833333" y="597.0" />
+      <point x="156.15494791666666" y="597.0" />
+      <point x="31.0" y="40.5" />
+    </edge>
+    <edge source="com.lab111.labwork2.Cl2" target="com.lab111.labwork2.If3" relationship="DEPENDENCY">
+      <point x="-15.625" y="-63.5" />
+      <point x="46.875" y="597.0" />
+      <point x="31.60234374999996" y="597.0" />
+      <point x="31.60234374999996" y="198.0" />
+      <point x="59.66848958333331" y="198.0" />
+      <point x="-15.625" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork2.Cl3" target="com.lab111.labwork2.If2" relationship="DEPENDENCY">
+      <point x="0.0" y="-52.0" />
+      <point x="141.10234374999996" y="304.0" />
+      <point x="146.26901041666662" y="304.0" />
+      <point x="41.66666666666666" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork2.If3" target="com.lab111.labwork2.If1" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-28.5" />
+      <point x="75.29348958333331" y="83.0" />
+      <point x="109.27265624999998" y="83.0" />
+      <point x="-31.0" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork2.If2" target="com.lab111.labwork2.If3" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-28.5" />
+      <point x="104.60234374999996" y="198.0" />
+      <point x="90.91848958333331" y="198.0" />
+      <point x="15.625" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork2.Cl1" target="com.lab111.labwork2.Cl3" relationship="TO_ONE">
+      <point x="0.0" y="-40.5" />
+      <point x="125.15494791666666" y="467.0" />
+      <point x="141.10234374999996" y="467.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="127.0" y="430.0" />
+  <SelectedNodes>
+    <node>com.lab111.labwork2.Cl1</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,5 +1,9 @@
 package com.lab111.labwork2;
-
+/**
+ * 1st class - test class holds void method main that executes all class methods
+ * @author Andy
+ * @version 2.14
+ */
 public class Test14 {
     /**
      * main - Invokes at application startup.

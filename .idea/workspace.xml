@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="479cd5cb-b3fb-4c22-af53-23379643f874" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork3/CatalogueComposite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork3/FileLeaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork3/SizedComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/eclipse-classes/com/lab111/aModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/If1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/If1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/build/app made by Andy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/build/output/com/lab111/aModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/tempKey.store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/If1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +40,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1xlg6jGb55XLa5ZAG9KFR4Tomy8" />
   <component name="ProjectViewState">
@@ -69,7 +72,7 @@
       <recent name="com.lab111" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test14">
+  <component name="RunManager" selected="Ant Target.doc">
     <configuration name="clean" type="AntRunConfiguration" folderName="default">
       <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="clean" />
       <method v="2">
@@ -118,12 +121,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lab111.labwork3.Main" />
+      <module name="template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lab111.labwork3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lab111.labwork2.Test14" />
       <module name="template" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lab111.labwork2.*" />
+          <option name="PATTERN" value="com.lab111.labwork3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,9 +171,11 @@
       <item itemvalue="Ant Target.zip" />
       <item itemvalue="Application.TestMain" />
       <item itemvalue="Application.Test14" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test14" />
         <item itemvalue="Application.TestMain" />
       </list>
@@ -179,6 +197,7 @@
       <workItem from="1631296601149" duration="777000" />
       <workItem from="1632512436932" duration="299000" />
       <workItem from="1632670486673" duration="7471000" />
+      <workItem from="1633714931814" duration="1402000" />
     </task>
     <servers />
   </component>

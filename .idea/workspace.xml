@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="479cd5cb-b3fb-4c22-af53-23379643f874" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork3/CatalogueComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork3/FileLeaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork3/SizedComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/app made by Andy.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/output/com/lab111/aModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/tempKey.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork2/If1.java" beforeDir="false" />
-    </list>
+    <list default="true" id="479cd5cb-b3fb-4c22-af53-23379643f874" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +60,7 @@
       <recent name="com.lab111" />
     </key>
   </component>
-  <component name="RunManager" selected="Ant Target.doc">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="clean" type="AntRunConfiguration" folderName="default">
       <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="clean" />
       <method v="2">
@@ -197,7 +185,7 @@
       <workItem from="1631296601149" duration="777000" />
       <workItem from="1632512436932" duration="299000" />
       <workItem from="1632670486673" duration="7471000" />
-      <workItem from="1633714931814" duration="1402000" />
+      <workItem from="1633714931814" duration="1705000" />
     </task>
     <servers />
   </component>

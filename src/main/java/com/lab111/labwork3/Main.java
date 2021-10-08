@@ -20,6 +20,8 @@ public class Main {
 
         
         Main.client_code2(simpleCatalogue, file);
+        simpleCatalogue.remove(file);
+        Main.client_code(simpleCatalogue);
 
         simpleCatalogue.add(file2);
         simpleCatalogue.add(file3);

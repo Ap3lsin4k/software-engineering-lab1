@@ -1,4 +1,11 @@
 package com.lab111.labwork3;
 
-public class SizedComponent {
+public abstract class SizedComponent {
+    void add(SizedComponent component) {
+
+    }
+    void remove(SizedComponent component) {
+
+    }
+    abstract int getSize();
 }

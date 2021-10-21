@@ -14,7 +14,7 @@
   <property name="libDir" value="lib" />
 
 <!-- ================== JAR Properties =================== -->
-  <property name="jar.mainClass" value="com.lab111.labwork3.Main" />
+  <property name="jar.mainClass" value="com.lab111.labwork4.Main" />
   <property name="jar.name" value="${app.name}.jar" />
   <property name="jar.keyStore" value="${basedir}/out/tempKey.store" />
   <property name="jar.keyPass" value="telpat" />

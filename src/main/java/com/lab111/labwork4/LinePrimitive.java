@@ -1,4 +1,4 @@
-package com.lab111.labwork3;
+package com.lab111.labwork4;
 
 public class LinePrimitive {
 }

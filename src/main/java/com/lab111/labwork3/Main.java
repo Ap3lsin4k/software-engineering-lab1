@@ -33,12 +33,12 @@ public class Main {
     }
 
     static void client_code(SizedComponent asset) {
-        System.out.println("Size of an asset: "+Integer.toString(asset.getSize()));
+        System.out.println("Size of asset: "+Integer.toString(asset.getSize()));
     }
 
     static void client_code2(SizedComponent asset, SizedComponent asset2) {
         asset.add(asset2);
-        System.out.println("Size of an asset: "+Integer.toString(asset.getSize()));
-        System.out.println("Size of an asset2: "+Integer.toString(asset2.getSize()));
+        System.out.println("Size of asset: "+Integer.toString(asset.getSize()));
+        System.out.println("Size of asset2: "+Integer.toString(asset2.getSize()));
     }
 }

@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="479cd5cb-b3fb-4c22-af53-23379643f874" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Canvas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/LineAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/LineAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/LinePrimitive.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/LinePrimitive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/WindowSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/WindowSingleton.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/LineAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/LineAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/LinePrimitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/LinePrimitive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/RectangleComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/RectangleComposite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Target.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/WindowSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/WindowSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +206,7 @@
       <workItem from="1632670486673" duration="7471000" />
       <workItem from="1633714931814" duration="2368000" />
       <workItem from="1634841206816" duration="1122000" />
-      <workItem from="1634886201660" duration="5437000" />
+      <workItem from="1634886201660" duration="6221000" />
     </task>
     <servers />
   </component>

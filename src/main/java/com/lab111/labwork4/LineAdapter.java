@@ -2,7 +2,6 @@ package com.lab111.labwork4;
 
 public class LineAdapter implements Target {
     LinePrimitive adaptee;
-//    private int x1, y1, x2, y2;
     PointFromCenter begin, end;
 
     LineAdapter(PointFromCenter begin, PointFromCenter end) {

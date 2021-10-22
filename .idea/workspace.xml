@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="479cd5cb-b3fb-4c22-af53-23379643f874" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/software-engineering-lab1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/LineAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/PointFromCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/PointFromTopLeft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/RectangleComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/WindowSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Canvas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/eclipse-classes/com/lab111/labwork3/CatalogueComposite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/eclipse-classes/com/lab111/labwork3/FileLeaf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/eclipse-classes/com/lab111/labwork3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/eclipse-classes/com/lab111/labwork3/SizedComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/LineAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/LineAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/LinePrimitive.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/LinePrimitive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/WindowSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/WindowSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/LineAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/LineAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/LinePrimitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/LinePrimitive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/RectangleComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/RectangleComposite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Target.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/WindowSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/WindowSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +80,9 @@
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.lab111.labwork2" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="com.lab111.labwork4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lab111" />
@@ -178,19 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="software-engineering-lab1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="software-engineering-lab1" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Ant Target.clean" />
       <item itemvalue="Ant Target.prepare" />
@@ -230,6 +215,7 @@
       <workItem from="1632670486673" duration="7471000" />
       <workItem from="1633714931814" duration="2368000" />
       <workItem from="1634841206816" duration="1122000" />
+      <workItem from="1634886201660" duration="5437000" />
     </task>
     <servers />
   </component>
@@ -252,17 +238,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lab111/labwork4/RectangleComposite.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lab111/labwork4/LinePrimitive.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Canvas.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.lab111.labwork4.Canvas" memberName="lines" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

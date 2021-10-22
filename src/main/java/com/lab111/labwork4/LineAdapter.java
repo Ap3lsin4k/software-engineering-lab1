@@ -1,8 +1,10 @@
 package com.lab111.labwork4;
 
+/**
+ * This is object adapter as oposed to class adapter. adaptee is an instance variable, but if we had subclassed LinePrimitive, LineAdapater would be called a class adapter.
+ */
 public class LineAdapter implements Target {
     /**
-     * This is object adapter as oposed to class adapter. adaptee is an instance variable, but if we had subclassed LinePrimitive, LineAdapater would be called a class adapter.
      * LinePrimitive accepts PointFromTopLeft, but our client wants to work with PointFromCenter, so we wrap LinePrimitive adaptee, and client doesn't notice a difference
      */
     LinePrimitive adaptee;

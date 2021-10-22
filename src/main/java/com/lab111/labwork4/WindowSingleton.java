@@ -5,6 +5,7 @@ import javax.swing.*;
 public class WindowSingleton {
     public final JFrame window;
     private static WindowSingleton instance;
+    public Canvas canvas;
 
     private WindowSingleton() {
 
@@ -15,10 +16,12 @@ public class WindowSingleton {
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // setting size of the pop window
-        window.setBounds(100, 100, 200, 200);
+        window.setBounds(300, 300, 300, 400);
+        canvas = new Canvas();
 
         // set visibility
         window.setVisible(true);
+        window.getContentPane().add(canvas);
 
     }
 
@@ -28,4 +31,5 @@ public class WindowSingleton {
         }
         return instance;
     }
+
 }

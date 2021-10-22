@@ -9,14 +9,12 @@ public class LineAdapter implements Target {
         adaptee = new LinePrimitive();
         this.begin = begin;
         this.end = end;
-//        window.getContentPane().add(new LinePrimitive(1,1, 30, 50)
     }
 
-    public void draw() {
+    public void drawFromCenter() {
         int width = WindowSingleton.getInstance().window.getBounds().width;
         int height = WindowSingleton.getInstance().window.getBounds().height;
-
-        adaptee.draw(new PointFromTopLeft(begin.x + width/2, begin.y += height/2), new PointFromTopLeft(end.x + width/2, end.y += height/2));
+        adaptee.drawFromTopLeft(new PointFromTopLeft(begin.x + width/2, -begin.y + height/2), new PointFromTopLeft(end.x + width/2, -end.y + height/2));
     }
 
 

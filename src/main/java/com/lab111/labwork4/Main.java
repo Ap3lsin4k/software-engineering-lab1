@@ -7,19 +7,16 @@ package com.lab111.labwork4;
  */
 // Java program to draw a line in Applet
 
-import javax.swing.*;
-
-
 public class Main {
     public static void main(String[] a)
     {
-        JFrame window = WindowSingleton.getInstance().window;
+        RectangleComposite rect = new RectangleComposite(new PointFromCenter(0, 0), 100, 100);
+        rect.drawFromCenter();
+        RectangleComposite rect2 = new RectangleComposite(new PointFromCenter(50, 120), 50, 50);
+        rect2.drawFromCenter();
+
         LinePrimitive line = new LinePrimitive();
-
-        RectangleComposite rect = new RectangleComposite(new PointFromCenter(0, 0), 20, 40);
-        rect.draw();
-
-
+        line.drawFromTopLeft(new PointFromTopLeft(0, 0), new PointFromTopLeft(20, 40));
     }
 
 }

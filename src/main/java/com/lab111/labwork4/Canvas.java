@@ -12,10 +12,18 @@ class Canvas extends JPanel {
         lines = new ArrayList<>();
     }
 
+    /**
+     * saves LinePrimitive which will be drawn using coordinate system with origin at left top
+     * @param line
+     */
     public void draw(LinePrimitive line) {
         lines.add(line);
     }
 
+    /**
+     * real implementation to draw lines on the screen in coordinate system with origin at top left
+     * @param g
+     */
     @Override
     public void paintComponent(Graphics g) {
         for (LinePrimitive line : lines) {

@@ -25,6 +25,10 @@ public class WindowSingleton {
 
     }
 
+    /**
+     * get window drawer from any place in our code. To draw something use getInstace().canvas.draw(LinePrimitive)
+     * @return
+     */
     static WindowSingleton getInstance() {
         if (instance == null) {
             instance = new WindowSingleton();

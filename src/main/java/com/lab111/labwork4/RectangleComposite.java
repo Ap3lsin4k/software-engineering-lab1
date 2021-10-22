@@ -3,13 +3,25 @@ package com.lab111.labwork4;
 
 import java.util.ArrayList;
 
+/**
+ * Client could draw Rectangle directly, because it implements Target intefrace
+ * @author Andy
+ * @version 4.06
+ */
 public class RectangleComposite implements Target {
-    ArrayList<com.lab111.labwork4.LineAdapter> lines;
+    ArrayList<LineAdapter> lines;
     int width;
     int height;
 
-    RectangleComposite(PointFromCenter p1, int width, int height) {
+    /**
+     *
+     * @param center position of center rectangle in Cartesian coordinate system
+     * @param width of a rectangle
+     * @param height of a rectangle
+     */
+    RectangleComposite(PointFromCenter center, int width, int height) {
         lines = new ArrayList<>();
+        PointFromCenter p1 = center;
         p1.y -= height / 2;
         p1.x -= width / 2;
 

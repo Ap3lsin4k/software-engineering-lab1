@@ -6,8 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="479cd5cb-b3fb-4c22-af53-23379643f874" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/LineAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/LineAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/Canvas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/LineAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/LineAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/LinePrimitive.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/LinePrimitive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/PointFromCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/PointFromCenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/PointFromTopLeft.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/PointFromTopLeft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/RectangleComposite.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/RectangleComposite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/WindowSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/software-engineering-lab1/com/lab111/labwork4/WindowSingleton.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/RectangleComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/RectangleComposite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +215,7 @@
       <workItem from="1632670486673" duration="7471000" />
       <workItem from="1633714931814" duration="2368000" />
       <workItem from="1634841206816" duration="1122000" />
-      <workItem from="1634886201660" duration="6221000" />
+      <workItem from="1634886201660" duration="8859000" />
     </task>
     <servers />
   </component>
@@ -226,15 +235,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Canvas.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="com.lab111.labwork4.Canvas" memberName="lines" />

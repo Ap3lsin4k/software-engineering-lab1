@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.lab111.labwork4</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.lab111.labwork4.WindowSingleton</node>
+    <node x="597.8093750000003" y="587.0">com.lab111.labwork4.RectangleComposite</node>
+    <node x="475.4826388888889" y="35.5">com.lab111.labwork4.PointFromTopLeft</node>
+    <node x="830.5034722222223" y="225.5">com.lab111.labwork4.Target</node>
+    <node x="115.5" y="225.5">com.lab111.labwork4.PointFromCenter</node>
+    <node x="339.5" y="190.0">com.lab111.labwork4.LinePrimitive</node>
+    <node x="308.4100694444446" y="382.0">com.lab111.labwork4.LineAdapter</node>
+    <node x="414.08333333333326" y="790.0">com.lab111.labwork4.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lab111.labwork4.LineAdapter" target="com.lab111.labwork4.PointFromCenter" relationship="TO_ONE">
+      <point x="-43.37500000000006" y="-75.5" />
+      <point x="438.53506944444456" y="360.0" />
+      <point x="436.9100694444445" y="360.0" />
+      <point x="436.9100694444445" y="350.0" />
+      <point x="285.5" y="350.0" />
+      <point x="68.0" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork4.LinePrimitive" target="com.lab111.labwork4.PointFromTopLeft" relationship="DEPENDENCY">
+      <point x="-105.25000000000006" y="-64.0" />
+      <point x="444.7499999999999" y="169.0" />
+      <point x="545.5350694444445" y="169.0" />
+      <point x="545.5350694444445" y="149.0" />
+      <point x="510.64930555555554" y="149.0" />
+      <point x="-70.33333333333331" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork4.LineAdapter" target="com.lab111.labwork4.LinePrimitive" relationship="TO_ONE">
+      <point x="-43.37500000000006" y="-75.5" />
+      <point x="438.53506944444456" y="360.0" />
+      <point x="436.9100694444445" y="360.0" />
+      <point x="436.9100694444445" y="350.0" />
+      <point x="444.75" y="350.0" />
+      <point x="-105.25" y="64.0" />
+    </edge>
+    <edge source="com.lab111.labwork4.LineAdapter" target="com.lab111.labwork4.PointFromTopLeft" relationship="CREATE">
+      <point x="43.37499999999994" y="-75.5" />
+      <point x="525.2850694444446" y="360.0" />
+      <point x="613.4100694444446" y="360.0" />
+      <point x="613.4100694444446" y="340.0" />
+      <point x="771.0" y="340.0" />
+      <point x="771.0" y="159.0" />
+      <point x="651.3159722222222" y="159.0" />
+      <point x="70.33333333333331" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork4.LineAdapter" target="com.lab111.labwork4.LinePrimitive" relationship="CREATE">
+      <point x="43.37499999999994" y="-75.5" />
+      <point x="525.2850694444446" y="360.0" />
+      <point x="613.4100694444446" y="360.0" />
+      <point x="613.4100694444446" y="340.0" />
+      <point x="655.2499999999999" y="340.0" />
+      <point x="105.24999999999994" y="64.0" />
+    </edge>
+    <edge source="com.lab111.labwork4.Main" target="com.lab111.labwork4.Target" relationship="DEPENDENCY">
+      <point x="49.25" y="-52.0" />
+      <point x="561.8333333333333" y="769.0" />
+      <point x="988.0975694444446" y="769.0" />
+      <point x="988.0975694444446" y="360.0" />
+      <point x="986.3368055555557" y="360.0" />
+      <point x="62.33333333333337" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork4.LineAdapter" target="com.lab111.labwork4.PointFromCenter" relationship="DEPENDENCY">
+      <point x="-130.12500000000006" y="-75.5" />
+      <point x="351.78506944444456" y="360.0" />
+      <point x="173.66354166666684" y="360.0" />
+      <point x="173.66354166666684" y="340.0" />
+      <point x="217.5" y="340.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork4.RectangleComposite" target="com.lab111.labwork4.Target" relationship="TO_MANY">
+      <point x="111.33333333333337" y="-75.5" />
+      <point x="876.1427083333335" y="565.0" />
+      <point x="922.704861111111" y="565.0" />
+      <point x="922.704861111111" y="360.0" />
+      <point x="924.0034722222223" y="360.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork4.Main" target="com.lab111.labwork4.RectangleComposite" relationship="CREATE">
+      <point x="-49.25" y="-52.0" />
+      <point x="463.33333333333326" y="769.0" />
+      <point x="423.83333333333326" y="769.0" />
+      <point x="423.83333333333326" y="759.0" />
+      <point x="764.8093750000002" y="759.0" />
+      <point x="0.0" y="75.5" />
+    </edge>
+    <edge source="com.lab111.labwork4.LineAdapter" target="com.lab111.labwork4.WindowSingleton" relationship="DEPENDENCY">
+      <point x="-130.12500000000006" y="-75.5" />
+      <point x="351.78506944444456" y="360.0" />
+      <point x="173.66354166666684" y="360.0" />
+      <point x="173.66354166666684" y="340.0" />
+      <point x="105.0" y="340.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.lab111.labwork4.RectangleComposite" target="com.lab111.labwork4.Target" relationship="REALIZATION">
+      <point x="0.0" y="-75.5" />
+      <point x="764.8093750000003" y="565.0" />
+      <point x="838.3333333333333" y="565.0" />
+      <point x="838.3333333333333" y="340.0" />
+      <point x="861.6701388888889" y="340.0" />
+      <point x="-62.33333333333337" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork4.Main" target="com.lab111.labwork4.PointFromCenter" relationship="CREATE">
+      <point x="-49.25" y="-52.0" />
+      <point x="463.33333333333326" y="769.0" />
+      <point x="423.83333333333326" y="769.0" />
+      <point x="423.83333333333326" y="759.0" />
+      <point x="67.15659722222233" y="759.0" />
+      <point x="67.15659722222233" y="350.0" />
+      <point x="149.5" y="350.0" />
+      <point x="-68.0" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork4.RectangleComposite" target="com.lab111.labwork4.PointFromCenter" relationship="CREATE">
+      <point x="-111.33333333333331" y="-75.5" />
+      <point x="653.4760416666669" y="565.0" />
+      <point x="389.9100694444446" y="565.0" />
+      <point x="389.9100694444446" y="555.0" />
+      <point x="94.5" y="555.0" />
+      <point x="94.5" y="360.0" />
+      <point x="67.15659722222233" y="360.0" />
+      <point x="67.15659722222233" y="350.0" />
+      <point x="149.5" y="350.0" />
+      <point x="-68.0" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork4.RectangleComposite" target="com.lab111.labwork4.LineAdapter" relationship="CREATE">
+      <point x="-111.33333333333331" y="-75.5" />
+      <point x="653.4760416666669" y="565.0" />
+      <point x="389.9100694444446" y="565.0" />
+      <point x="389.9100694444446" y="555.0" />
+      <point x="481.9100694444446" y="555.0" />
+      <point x="0.0" y="75.5" />
+    </edge>
+    <edge source="com.lab111.labwork4.LinePrimitive" target="com.lab111.labwork4.WindowSingleton" relationship="DEPENDENCY">
+      <point x="-105.25000000000006" y="-64.0" />
+      <point x="444.7499999999999" y="169.0" />
+      <point x="545.5350694444445" y="169.0" />
+      <point x="545.5350694444445" y="159.0" />
+      <point x="105.0" y="159.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.lab111.labwork4.LineAdapter" target="com.lab111.labwork4.Target" relationship="REALIZATION">
+      <point x="130.12499999999994" y="-75.5" />
+      <point x="612.0350694444446" y="350.0" />
+      <point x="838.3333333333333" y="350.0" />
+      <point x="838.3333333333333" y="340.0" />
+      <point x="861.6701388888889" y="340.0" />
+      <point x="-62.33333333333337" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork4.LinePrimitive" target="com.lab111.labwork4.PointFromTopLeft" relationship="TO_ONE">
+      <point x="105.24999999999994" y="-64.0" />
+      <point x="655.2499999999999" y="169.0" />
+      <point x="580.9826388888889" y="169.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9518599562363238" showDependencies="true" x="509.0" y="447.0" />
+  <SelectedNodes>
+    <node>com.lab111.labwork4.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

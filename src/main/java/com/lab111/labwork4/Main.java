@@ -19,8 +19,8 @@ public class Main {
 
         clientCode(new RectangleComposite[]{big, small});
 
-        LinePrimitive line = new LinePrimitive();
-        line.drawFromTopLeft(new PointFromTopLeft(0, 0), new PointFromTopLeft(20, 40));
+//        LinePrimitive line = new LinePrimitive();
+//        line.drawFromTopLeft(new PointFromTopLeft(0, 0), new PointFromTopLeft(20, 40));
     }
 
     /**

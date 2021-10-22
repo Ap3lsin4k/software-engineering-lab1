@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * @version 4.06
  */
 public class RectangleComposite implements Target {
-    ArrayList<LineAdapter> lines;
+    ArrayList<Target> lines;
     int width;
     int height;
 
@@ -38,7 +38,7 @@ public class RectangleComposite implements Target {
 
     @Override
     public void drawFromCenter() {
-        for (LineAdapter line : lines) {
+        for (Target line : lines) {
             line.drawFromCenter();
         }
     }

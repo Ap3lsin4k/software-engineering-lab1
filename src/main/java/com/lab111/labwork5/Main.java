@@ -1,4 +1,4 @@
-package com.lab111.labwork4;
+package com.lab111.labwork5;
 
 /**
  * Class to draw primitix

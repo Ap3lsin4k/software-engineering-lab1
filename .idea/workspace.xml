@@ -5,74 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="479cd5cb-b3fb-4c22-af53-23379643f874" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/allclasses-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/allpackages-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork3/CatalogueComposite.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork3/FileLeaf.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork3/Main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork3/SizedComponent.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork3/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork3/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork4/Canvas.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork4/LineAdapter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork4/LinePrimitive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork4/Main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork4/Point.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork4/PointFromCenter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork4/PointFromTopLeft.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork4/RectangleComposite.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork4/Target.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork4/WindowSingleton.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork4/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com/lab111/labwork4/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/element-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-all.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/jquery-ui.overrides.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/legal/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/legal/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/legal/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/legal/jquery.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/legal/jqueryUI.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/member-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/module-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/package-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/resources/glass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/resources/x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script-dir/images/ui-icons_222222_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script-dir/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script-dir/images/ui-icons_454545_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script-dir/images/ui-icons_888888_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script-dir/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script-dir/jquery-3.5.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script-dir/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script-dir/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script-dir/jquery-ui.structure.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/serialized-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/tag-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/type-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Canvas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/LineAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/LinePrimitive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Point.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/PointFromCenter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/PointFromTopLeft.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/RectangleComposite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Target.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/WindowSingleton.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork5/Lab5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab111/labwork4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab111/labwork5/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,11 +128,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lab111.labwork4.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.lab111.labwork5.Main" />
       <module name="software-engineering-lab1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lab111.labwork4.*" />
+          <option name="PATTERN" value="com.lab111.labwork5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,7 +145,7 @@
       <module name="software-engineering-lab1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lab111.labwork4.*" />
+          <option name="PATTERN" value="com.lab111.labwork5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,7 +206,7 @@
       <workItem from="1633714931814" duration="2368000" />
       <workItem from="1634841206816" duration="1122000" />
       <workItem from="1634886201660" duration="9821000" />
-      <workItem from="1635594694502" duration="2586000" />
+      <workItem from="1635594694502" duration="2942000" />
     </task>
     <servers />
   </component>

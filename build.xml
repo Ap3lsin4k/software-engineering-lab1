@@ -7,14 +7,14 @@
   <property name="app.author" value="Andy Theodorko" />
   <property name="app.company" value="IO-04" />
 
-  <property name="sourceDir" value="src/main/java" />
+  <property name="sourceDir" value="src" />
   <property name="outputDir" value="out/eclipse-classes" />
   <property name="buildDir" value="out/build" />
   <property name="resourceDir" value="src/res" />
   <property name="libDir" value="lib" />
 
 <!-- ================== JAR Properties =================== -->
-  <property name="jar.mainClass" value="com.lab111.labwork4.Main" />
+  <property name="jar.mainClass" value="com.lab111.labwork5.Main" />
   <property name="jar.name" value="${app.name}.jar" />
   <property name="jar.keyStore" value="${basedir}/out/tempKey.store" />
   <property name="jar.keyPass" value="telpat" />

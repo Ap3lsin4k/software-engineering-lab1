@@ -1,20 +1,9 @@
-/**
- * Main class that represents the work of Chain of Responsibility and Composite design patterns
- */
 package com.lab111.labwork6;
-
-/**
- * Abstract class of components of user interface
- */
-
-/**
- * Class of a panel(composite)
- */
 
 import java.util.ArrayList;
 import java.util.List;
 /**
- * @author TRudenko
+ * @author Andy
  * @version 6.4
  */
 public class PanelComposite extends HandlerComponent {
@@ -28,14 +17,14 @@ public class PanelComposite extends HandlerComponent {
         this.canHandle = canHandle;
     }
     /**
-     * Adds a new child object to a panel
+     * Adds a new child object to a composite
      */
     public void add(HandlerComponent child){
         children.add(child);
         child.parent = this;
     }
     /**
-     * Removes a child object from a panel
+     * Removes a child object from a composite
      */
     public void remove(HandlerComponent child) {
         children.remove(child);

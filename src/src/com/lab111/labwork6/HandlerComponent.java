@@ -1,7 +1,7 @@
 package com.lab111.labwork6;
 
 /**
- * @author TRudenko
+ * @author Andy
  * @version 6.4
  */
 public abstract class HandlerComponent {
@@ -10,7 +10,7 @@ public abstract class HandlerComponent {
     public boolean canHandle;
 
     /**
-     * Method of reacting on a mouse pointer over the component
+     * Method to handle a request or redirect
      */
     public void mouseHover() {
         if (canHandle)

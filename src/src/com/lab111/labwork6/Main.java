@@ -3,11 +3,10 @@ package com.lab111.labwork6;
 import java.awt.*;
 
 /**
- * client code to show Iterator design pattern
+ * client code to show Chain of Responsibility design pattern with Composite
  * @author Andy
- * @version 5.01
+ * @version 6.4
  */
-// Java program to draw a line in Applet
 
 public class Main {
     public static void main(String[] a) {

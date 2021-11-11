@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Class of a button
+ * Class of an image
  */
 public class ImageLeaf extends HandlerComponent {
 
 
     /**
-     * Constructor that defines the reacting on a mouse
+     * Constructor that defines that image is not interactive, thus cannot handle mouse events
      */
     public ImageLeaf(PanelComposite parent) {
         super();

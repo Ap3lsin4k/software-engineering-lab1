@@ -1,15 +1,12 @@
 package com.lab111.labwork6;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Class of a button
  */
 public class ButtonLeaf extends HandlerComponent {
 
     /**
-     * Constructor that defines the reacting on a mouse
+     * Constructor of a button
      */
     public ButtonLeaf() {
         super();
@@ -18,7 +15,7 @@ public class ButtonLeaf extends HandlerComponent {
 
     @Override
     protected void handle() {
-        System.out.println("Mouse pointer is over the button " + this.toString());
+        System.out.println("Mouse is over the button " + this);
     }
 
 }

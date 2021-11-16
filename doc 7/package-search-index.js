@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.lab111.labwork7.memento.example"},{"l":"com.lab111.labwork7.memento.example.commands"},{"l":"com.lab111.labwork7.memento.example.editor"},{"l":"com.lab111.labwork7.memento.example.history"},{"l":"com.lab111.labwork7.memento.example.shapes"}];updateSearchResults();

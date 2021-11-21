@@ -10,12 +10,12 @@ public class Demo {
         AlgebraicExpresion algExpresion3 = new Multiplication(
                         new Constant(200),
                         new Variable('x'),
-                        new Variable('y')
+                        new Summation(new Variable('y'), new Constant(2))
                 );
 
         System.out.println("algebraic expression1 = " + algExpresion.represent());
         System.out.println("algebraic expression2 = " + algExpresion2.represent());
         System.out.println("algebraic expression3 = " + algExpresion3.represent());
-        System.out.println("list of variables " + ListOfVariablesSingleton.getInstance().listOfVariables);
+        System.out.println("Num of variables " + ListOfVariablesSingleton.getInstance().listOfVariables.size());
     }
 }

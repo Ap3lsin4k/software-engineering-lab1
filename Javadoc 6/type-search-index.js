@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.lab111.labwork6","l":"ButtonLeaf"},{"p":"com.lab111.labwork6","l":"HandlerComponent"},{"p":"com.lab111.labwork6","l":"ImageLeaf"},{"p":"com.lab111.labwork6","l":"Main"},{"p":"com.lab111.labwork6","l":"PanelComposite"}];updateSearchResults();

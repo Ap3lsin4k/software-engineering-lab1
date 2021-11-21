@@ -5,11 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="479cd5cb-b3fb-4c22-af53-23379643f874" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/src/com/lab111/labwork8/AlgebraicExpresion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/com/lab111/labwork8/BaseAlgebraicExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/com/lab111/labwork8/ListOfVariablesSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Summation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork7/memento/example/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork7/memento/example/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork7/memento/example/OutputDemo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork7/memento/example/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/com/lab111/labwork7/memento/example/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork7/memento/example/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/com/lab111/labwork7/memento/example/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork7/BaseShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork7/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork7/CompoundShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork7/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork7/Dot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork7/ImageEditor$EditorCanvas$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork7/ImageEditor$EditorCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork7/ImageEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork7/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork7/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/refactoring_guru/composite/example/OutputDemo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork7/BaseShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork7/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork7/CompoundShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork7/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork7/Dot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork7/ImageEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork7/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork7/Shape.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +98,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lab111.labwork8" />
       <recent name="com.lab111.labwork2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/src/com/lab111/labwork6" />
       <recent name="$PROJECT_DIR$/src/src" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/src/com/lab111/labwork6" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -176,25 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lab111.labwork7.Demo" />
-      <module name="src" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lab111.labwork7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lab111.labwork6.Demo" />
       <module name="src" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lab111.labwork7.*" />
+          <option name="PATTERN" value="com.lab111.labwork8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,6 +217,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lab111.labwork7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lab111.labwork8.Demo" />
+      <module name="src" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lab111.labwork8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,7 +330,7 @@
       <workItem from="1637044680535" duration="827000" />
       <workItem from="1637048490154" duration="1815000" />
       <workItem from="1637087176588" duration="7636000" />
-      <workItem from="1637421741339" duration="3888000" />
+      <workItem from="1637421741339" duration="8257000" />
     </task>
     <servers />
   </component>

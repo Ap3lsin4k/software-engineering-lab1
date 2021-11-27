@@ -5,10 +5,23 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.StringJoiner;
 
+/**
+ * composite operation for working with variables and constants
+ */
 public class Operation extends BaseAlgebraicExpression {
+    /**
+     * list of variables, constants or operations
+     */
     protected List<AlgebraicExpresion> children = new ArrayList<>();
+    /**
+     * to remember sign of operation
+     */
     String operation;
 
+    /**
+     * @param operation - string representation of operation
+     * @param components - components to apply selected operation
+     */
     public Operation(String operation, AlgebraicExpresion... components) {
         super();
         this.operation = operation;
@@ -19,6 +32,10 @@ public class Operation extends BaseAlgebraicExpression {
         children.add(component);
     }
 
+    /**
+     * add all components
+     * @param components
+     */
     public void add(AlgebraicExpresion... components) {
         children.addAll(Arrays.asList(components));
     }
@@ -35,6 +52,10 @@ public class Operation extends BaseAlgebraicExpression {
         children.clear();
     }
 
+    /**
+     * join all algebraic expressions with selected sign
+     * @return nice string with operations
+     */
     @Override
     public String represent() {
         if (children.size() == 0) {

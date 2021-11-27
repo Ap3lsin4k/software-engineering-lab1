@@ -34,10 +34,19 @@ public final class ListOfVariablesSingleton {
         }
     }
 
+    /**
+     * register a variable from algebraic expression if it is new, or ignore
+     * @param variable
+     */
     public void register(Variable variable) {
         listOfVariables.add(variable);
     }
 
+    /**
+     * keep track of registered variables and remove duplicates
+     * @param variable
+     * @return
+     */
     public boolean hasBeenRegistered(Variable variable) {
         return listOfVariables.contains(variable);
     }

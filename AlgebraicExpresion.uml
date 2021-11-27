@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.lab111.labwork8.AlgebraicExpresion</OriginalElement>
+  <nodes>
+    <node x="243.91666666666666" y="721.0">com.lab111.labwork8.Demo</node>
+    <node x="553.62" y="0.0">com.lab111.labwork8.AlgebraicExpresion</node>
+    <node x="709.6616666666666" y="564.5">com.lab111.labwork8.Summation</node>
+    <node x="50.875" y="517.0">com.lab111.labwork8.ListOfVariablesSingleton</node>
+    <node x="420.66166666666663" y="564.5">com.lab111.labwork8.Multiplication</node>
+    <node x="328.28666666666663" y="289.0">com.lab111.labwork8.Constant</node>
+    <node x="125.495" y="109.0">com.lab111.labwork8.BaseAlgebraicExpression</node>
+    <node x="555.25" y="220.0">com.lab111.labwork8.Operation</node>
+    <node x="115.03666666666663" y="266.0">com.lab111.labwork8.Variable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lab111.labwork8.Operation" target="com.lab111.labwork8.AlgebraicExpresion" relationship="TO_MANY">
+      <point x="96.0" y="-121.5" />
+      <point x="795.25" y="198.0" />
+      <point x="752.75" y="198.0" />
+      <point x="752.75" y="78.0" />
+      <point x="716.12" y="78.0" />
+      <point x="65.0" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.Demo" target="com.lab111.labwork8.Constant" relationship="CREATE">
+      <point x="40.25" y="-40.5" />
+      <point x="364.66666666666663" y="700.0" />
+      <point x="491.16666666666663" y="700.0" />
+      <point x="491.16666666666663" y="690.0" />
+      <point x="405.28666666666663" y="690.0" />
+      <point x="0.0" y="52.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.Multiplication" target="com.lab111.labwork8.Operation" relationship="GENERALIZATION">
+      <point x="67.25" y="-28.5" />
+      <point x="622.4116666666666" y="490.0" />
+      <point x="699.25" y="490.0" />
+      <point x="0.0" y="121.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.Operation" target="com.lab111.labwork8.BaseAlgebraicExpression" relationship="GENERALIZATION">
+      <point x="-96.0" y="-121.5" />
+      <point x="603.25" y="198.0" />
+      <point x="397.495" y="198.0" />
+      <point x="397.495" y="188.0" />
+      <point x="304.745" y="188.0" />
+      <point x="59.75" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.Multiplication" target="com.lab111.labwork8.AlgebraicExpresion" relationship="DEPENDENCY">
+      <point x="-67.25" y="-28.5" />
+      <point x="487.91166666666663" y="490.0" />
+      <point x="544.75" y="490.0" />
+      <point x="544.75" y="88.0" />
+      <point x="651.12" y="88.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.BaseAlgebraicExpression" target="com.lab111.labwork8.AlgebraicExpresion" relationship="REALIZATION">
+      <point x="0.0" y="-28.5" />
+      <point x="244.995" y="78.0" />
+      <point x="586.12" y="78.0" />
+      <point x="-65.0" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.Demo" target="com.lab111.labwork8.ListOfVariablesSingleton" relationship="DEPENDENCY">
+      <point x="-40.25" y="-40.5" />
+      <point x="284.16666666666663" y="700.0" />
+      <point x="79.87" y="700.0" />
+      <point x="79.87" y="690.0" />
+      <point x="187.875" y="690.0" />
+      <point x="0.0" y="76.0" />
+    </edge>
+    <edge source="com.lab111.labwork8.Demo" target="com.lab111.labwork8.BaseAlgebraicExpression" relationship="DEPENDENCY">
+      <point x="-40.25" y="-40.5" />
+      <point x="284.16666666666663" y="700.0" />
+      <point x="79.87" y="700.0" />
+      <point x="79.87" y="690.0" />
+      <point x="40.375" y="690.0" />
+      <point x="40.375" y="198.0" />
+      <point x="185.245" y="198.0" />
+      <point x="-59.75" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.Summation" target="com.lab111.labwork8.Operation" relationship="GENERALIZATION">
+      <point x="-63.25" y="-28.5" />
+      <point x="772.9116666666666" y="490.0" />
+      <point x="699.25" y="490.0" />
+      <point x="0.0" y="121.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.Constant" target="com.lab111.labwork8.BaseAlgebraicExpression" relationship="GENERALIZATION">
+      <point x="0.0" y="-52.5" />
+      <point x="405.28666666666663" y="198.0" />
+      <point x="397.495" y="198.0" />
+      <point x="397.495" y="188.0" />
+      <point x="304.745" y="188.0" />
+      <point x="59.75" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.Summation" target="com.lab111.labwork8.AlgebraicExpresion" relationship="DEPENDENCY">
+      <point x="63.25" y="-28.5" />
+      <point x="899.4116666666666" y="490.0" />
+      <point x="853.75" y="490.0" />
+      <point x="853.75" y="88.0" />
+      <point x="651.12" y="88.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.Demo" target="com.lab111.labwork8.AlgebraicExpresion" relationship="DEPENDENCY">
+      <point x="-40.25" y="-40.5" />
+      <point x="284.16666666666663" y="700.0" />
+      <point x="79.87" y="700.0" />
+      <point x="79.87" y="690.0" />
+      <point x="0.0" y="690.0" />
+      <point x="0.0" y="88.0" />
+      <point x="651.12" y="88.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.ListOfVariablesSingleton" target="com.lab111.labwork8.Variable" relationship="DEPENDENCY">
+      <point x="-68.5" y="-76.0" />
+      <point x="119.375" y="490.0" />
+      <point x="146.53666666666663" y="490.0" />
+      <point x="-63.0" y="75.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.Variable" target="com.lab111.labwork8.ListOfVariablesSingleton" relationship="DEPENDENCY">
+      <point x="-63.0" y="75.5" />
+      <point x="146.53666666666663" y="490.0" />
+      <point x="119.375" y="490.0" />
+      <point x="-68.5" y="-76.0" />
+    </edge>
+    <edge source="com.lab111.labwork8.Variable" target="com.lab111.labwork8.BaseAlgebraicExpression" relationship="GENERALIZATION">
+      <point x="0.0" y="-75.5" />
+      <point x="209.53666666666663" y="198.0" />
+      <point x="397.495" y="198.0" />
+      <point x="397.495" y="188.0" />
+      <point x="304.745" y="188.0" />
+      <point x="59.75" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.ListOfVariablesSingleton" target="com.lab111.labwork8.Variable" relationship="TO_MANY">
+      <point x="68.5" y="-76.0" />
+      <point x="256.375" y="490.0" />
+      <point x="209.53666666666663" y="490.0" />
+      <point x="0.0" y="75.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.Operation" target="com.lab111.labwork8.AlgebraicExpresion" relationship="DEPENDENCY">
+      <point x="0.0" y="-121.5" />
+      <point x="699.25" y="198.0" />
+      <point x="707.0416666666666" y="198.0" />
+      <point x="707.0416666666666" y="88.0" />
+      <point x="651.12" y="88.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.Demo" target="com.lab111.labwork8.Variable" relationship="CREATE">
+      <point x="40.25" y="-40.5" />
+      <point x="364.66666666666663" y="700.0" />
+      <point x="491.16666666666663" y="700.0" />
+      <point x="491.16666666666663" y="690.0" />
+      <point x="386.625" y="690.0" />
+      <point x="386.625" y="490.0" />
+      <point x="272.53666666666663" y="490.0" />
+      <point x="63.0" y="75.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.Demo" target="com.lab111.labwork8.Summation" relationship="CREATE">
+      <point x="40.25" y="-40.5" />
+      <point x="364.66666666666663" y="700.0" />
+      <point x="491.16666666666663" y="700.0" />
+      <point x="491.16666666666663" y="690.0" />
+      <point x="836.1616666666666" y="690.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.lab111.labwork8.Demo" target="com.lab111.labwork8.Multiplication" relationship="CREATE">
+      <point x="40.25" y="-40.5" />
+      <point x="364.66666666666663" y="700.0" />
+      <point x="491.16666666666663" y="700.0" />
+      <point x="491.16666666666663" y="690.0" />
+      <point x="555.1616666666666" y="690.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5231143552311435" showDependencies="true" x="481.5" y="755.6069767441861" />
+  <SelectedNodes>
+    <node>com.lab111.labwork8.Summation</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

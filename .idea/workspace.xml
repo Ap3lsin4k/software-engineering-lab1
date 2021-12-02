@@ -5,11 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="479cd5cb-b3fb-4c22-af53-23379643f874" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/src/com/lab111/labwork9/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork8/ListOfVariablesSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork8/ListOfVariablesSingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork8/Variable.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork8/Variable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgebraicExpresion.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgebraicExpresionv0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes diagram full with dependencies.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes diagram for memento.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork8/AlgebraicExpresion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork8/BaseAlgebraicExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork8/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork8/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork8/ListOfVariablesSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork8/Multiplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork8/Operation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork8/Summation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/src/com/lab111/labwork8/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork8/AlgebraicExpresion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork8/BaseAlgebraicExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork8/ListOfVariablesSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Multiplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Operation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Summation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/com/lab111/labwork8/Variable.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +86,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../design-patterns-java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/src/com/lab111/labwork9" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -80,6 +101,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.lab111.labwork8" />
       <recent name="com.lab111.labwork2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/src/com/lab111/labwork9" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/src" />
@@ -103,7 +127,7 @@
       <recent name="com.lab111" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo (3)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="clean" type="AntRunConfiguration" folderName="default">
       <antsettings antfile="file://$PROJECT_DIR$/build.xml" target="clean" />
       <method v="2">
@@ -183,7 +207,20 @@
       <module name="src" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lab111.labwork8.*" />
+          <option name="PATTERN" value="com.lab111.labwork9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lab111.labwork9.Demo" />
+      <module name="src" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lab111.labwork9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,6 +281,19 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lab111.labwork9.Main" />
+      <module name="src" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lab111.labwork9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lab111.labwork6.Main" />
       <module name="src" />
       <extension name="coverage">
@@ -269,12 +319,11 @@
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.Demo (1)" />
       <item itemvalue="Application.Demo (2)" />
-      <item itemvalue="Application.Demo (3)" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo (3)" />
-        <item itemvalue="Application.Demo (3)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Demo (2)" />
         <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Demo" />
@@ -311,6 +360,8 @@
       <workItem from="1637048490154" duration="1815000" />
       <workItem from="1637087176588" duration="7636000" />
       <workItem from="1637421741339" duration="8947000" />
+      <workItem from="1638006599414" duration="7282000" />
+      <workItem from="1638425563804" duration="2108000" />
     </task>
     <servers />
   </component>

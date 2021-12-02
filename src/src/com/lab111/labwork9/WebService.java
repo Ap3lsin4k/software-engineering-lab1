@@ -6,3 +6,4 @@ public class WebService extends ValueObject {
         System.out.println(this.getClass().getName()+".id: " + getID());
     }
 }
+
